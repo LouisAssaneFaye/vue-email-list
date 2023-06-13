@@ -11,7 +11,7 @@
     <script src="https://unpkg.com/vue@3"></script>
     <div id="app">
         <ul>
-            <li v-for="(element, index) in mailList">
+            <li v-for="(element, index) in mailList" v-if="mail">
                 {{mail}}
             </li>
         </ul>
